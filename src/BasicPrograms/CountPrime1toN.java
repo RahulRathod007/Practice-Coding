@@ -14,8 +14,27 @@ public class CountPrime1toN {
 		int s = xyz.nextInt();
 		System.out.println("Enter a end ");
 		int e = xyz.nextInt();
-		
-		int count =0;
+		int i=1;
+		int totalCount = 0;
+		while(i<=e)
+		{
+			int j=1;
+			int count =0;
+			while(j<=i)
+			{
+				if(i%j==0)
+				{
+					count++;
+				}
+				j++;
+			}
+			if(count==2)
+			{
+				totalCount++;
+			}
+			i++;
+		}
+		System.out.println(totalCount);
 		
 		
 	}

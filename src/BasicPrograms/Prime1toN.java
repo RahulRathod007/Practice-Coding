@@ -25,7 +25,7 @@ public class Prime1toN {
 //				System.out.println(i);
 //			}
 //			i++;
-//		
+//		}
 		
 		for(int i=2;i<=no;i++)
 		{	int count = 0;
