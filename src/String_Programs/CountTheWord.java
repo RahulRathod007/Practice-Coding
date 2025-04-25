@@ -1,5 +1,9 @@
-// Input : Welcome To Java 
-// Output : Number of Words in Above String is 3
+/*
+Count Words in a String
+Description: Count the number of words in a string.
+Input: "hello world"
+Output: 2
+*/
 package String_Programs;
 import java.util.*;
 public class CountTheWord {

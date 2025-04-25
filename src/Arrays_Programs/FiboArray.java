@@ -13,8 +13,7 @@ public class FiboArray {
 			a[i] = a[i-1] + a[i-2];
 		}
 		
-		System.out.print("\nDisp"
-				+ "lay Fibonacci Array :");
+		System.out.print("\nDisplay Fibonacci Array :");
 		for(int i=0;i<a.length;i++)
 		{
 			System.out.print(" "+a[i]);

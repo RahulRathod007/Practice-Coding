@@ -1,3 +1,8 @@
+/* Reverse a String
+Description: Reverse the given string.
+Input: "hello"
+Output: "olleh"
+*/
 package String_Programs;
 
 import java.util.*;

@@ -1,3 +1,10 @@
+/*
+Check if a String is Palindrome
+Description: Check if the given string is a palindrome.
+Input: "madam"
+Output: Palindrome
+
+*/
 package String_Programs;
 import java.util.*;
 public class Palindrome_String {
@@ -6,52 +13,68 @@ public class Palindrome_String {
 		System.out.println("Enter a String :");
 		String str = xyz.next();
 		
-		 
 		//1) Using + (String Concatenation) Operator.
-		String s = str;
-	    String rev = "";
+		String rev = "";
 		for(int i=str.length()-1;i>=0;i--)
 		{
-			rev = rev + str.charAt(i);
+			rev += str.charAt(i); 
 		}
 		if(str.equals(rev))
 		{
-			System.out.printf("%s string is Palindrome",s);
+			System.out.println("Palindrome");
 		}
 		else
 		{
-			System.out.printf("%s string is not Palindrome",s);			
+			System.out.println("Not Palindrome");
 		}
-	
 		
-		//2) Using Character Array.
+		
+	// 2) Using Character Array
 	/*	char ch[] = str.toCharArray();
-		String rev="";
+		String rev = "";
 		for(int i=ch.length-1;i>=0;i--)
 		{
-			rev = rev + ch[i];
+			rev += str.charAt(i); 
 		}
 		if(str.equals(rev))
 		{
-			System.out.println("Given String is Palindrome");
+			System.out.println("Palindrome");
 		}
 		else
 		{
-			System.out.println("Given String is not Palindrome");
+			System.out.println("Not Palindrome");
 		}
 	*/
 		
-		// 3) Using StringBuffer class.
-	/*	StringBuffer sb = new StringBuffer(str);
-		sb.reverse();
+	// 3) Using String Buffer Class
+		
+		StringBuffer sb = new StringBuffer(str);
+	/*	sb.reverse();
 		if(str.equals(sb.toString()))
 		{
-			System.out.println("Given String is Palindrome");
+			System.out.println("Palindrome");
 		}
 		else
 		{
-			System.out.println("Given String is not Palindrome");
+			System.out.println("Not Palindrome");
 		}
 	*/
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
