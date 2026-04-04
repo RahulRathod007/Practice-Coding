@@ -16,11 +16,8 @@ public class PerfectSquareNumber {
 		int square=0;
 		for(int i=1;i*i<=no;i++)
 		{
-			if(square<20)
-			{
-				square = i * i;
-				System.out.println(square);
-			}
+			square = i * i;
+			System.out.println(square);
 		}
 	}
 }
