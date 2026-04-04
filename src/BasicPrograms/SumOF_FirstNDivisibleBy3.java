@@ -10,15 +10,10 @@ public class SumOF_FirstNDivisibleBy3 {
         int no = xyz.nextInt();
 
         int sum = 0;
-        int count = 1;
-        int num = 3;
-
-        while (count < no) {
-            sum += num;
-            num += 3;
-            count++;
+        for (int i = 1; i <= no; i++) 
+        {
+            sum = sum + (i * 3);
         }
-
         System.out.println("Sum = " + sum);
     }
 }
