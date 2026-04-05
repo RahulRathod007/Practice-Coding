@@ -26,7 +26,7 @@ public class GCD {
 //		System.out.println("GCD : "+first);
 		
 		
-		//Second Approach 
+		//brute force method
 		int gcd = 1;
 		int min = Math.min(first, second);
 		for(int i=1;i<=min;i++)
